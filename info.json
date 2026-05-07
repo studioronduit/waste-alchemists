@@ -1,9 +1,9 @@
 {
     "name": "Waste Alchemists",
     "slug": "waste-alchemists",
-    "version": "0.9.6",
+    "version": "0.9.5",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
-    "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/release/waste-alchemists.zip",
+    "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/v0.9.5-beta/waste-alchemists.zip",
     "sections": {
         "description": "Referral tracking for Waste Alchemists."
     }
