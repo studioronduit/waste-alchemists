@@ -1,12 +1,12 @@
 {
     "name": "Waste Alchemists",
     "slug": "waste-alchemists",
-    "version": "0.9.7",
+    "version": "0.9.8",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
-    "requires": "6.0",
+    "requires": "4.6",
     "tested": "6.8",
-    "requires_php": "8.0",
-    "last_updated": "2025-05-07",
+    "requires_php": "7.0",
+    "last_updated": "2026-05-07",
     "homepage": "https://www.wastealchemists.com/",
     "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/release/waste-alchemists.zip",
     "sections": {
