@@ -4,24 +4,9 @@
     "version": "0.9.6",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
     "license": "MIT",
-    "homepage": "https://github.com/studioronduit/waste-alchemists",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/studioronduit/waste-alchemists.git"
-    },
     "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/v0.9.6/waste-alchemists.zip",
-    "release_date": "2026-05-07",
-    "categories": ["Sustainability", "Waste Management", "Tracking"],
-    "keywords": ["waste", "recycling", "tracking", "sustainability", "alchemists"],
     "sections": {
         "description": "Waste Alchemists is a referral tracking system designed to monitor and optimize waste management processes. It helps organizations track referrals, measure impact, and improve sustainability efforts.",
-        "features": [
-            "Real-time referral tracking",
-            "Impact measurement and reporting",
-            "User-friendly dashboard",
-            "Customizable waste categories",
-            "Exportable data for analysis"
-        ],
         "screenshots": [
             {
                 "url": "https://github.com/studioronduit/waste-alchemists/raw/main/screenshots/dashboard.png",
@@ -59,12 +44,4 @@
             "community": "https://discord.gg/wastealchemists"
         }
     },
-    "dependencies": {
-        "php": ["laravel/framework:^9.0"],
-        "javascript": ["alpinejs:^3.0"]
-    },
-    "compatibility": {
-        "browsers": ["Chrome", "Firefox", "Safari", "Edge"],
-        "mobile": "Responsive design for tablets and smartphones"
-    }
 }
