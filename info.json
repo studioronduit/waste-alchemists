@@ -3,45 +3,8 @@
     "slug": "waste-alchemists",
     "version": "0.9.6",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
-    "license": "MIT",
     "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/v0.9.6/waste-alchemists.zip",
     "sections": {
         "description": "Waste Alchemists is a referral tracking system designed to monitor and optimize waste management processes. It helps organizations track referrals, measure impact, and improve sustainability efforts.",
-        "screenshots": [
-            {
-                "url": "https://github.com/studioronduit/waste-alchemists/raw/main/screenshots/dashboard.png",
-                "caption": "Waste Alchemists Dashboard"
-            },
-            {
-                "url": "https://github.com/studioronduit/waste-alchemists/raw/main/screenshots/reports.png",
-                "caption": "Impact Reports"
-            }
-        ],
-        "installation": {
-            "requirements": {
-                "php": ">= 8.0",
-                "database": "MySQL 5.7+ or MariaDB 10.2+",
-                "web_server": "Apache or Nginx",
-                "extensions": ["pdo_mysql", "mbstring", "json"]
-            },
-            "steps": [
-                "Download the latest release from the GitHub repository.",
-                "Extract the ZIP file to your web server directory.",
-                "Create a MySQL database and import the provided SQL file.",
-                "Configure the `config.php` file with your database credentials.",
-                "Access the application via your browser and follow the setup wizard."
-            ],
-            "notes": "Ensure your server has write permissions for the `storage` and `cache` directories."
-        },
-        "documentation": {
-            "user_guide": "https://github.com/studioronduit/waste-alchemists/wiki/User-Guide",
-            "api_reference": "https://github.com/studioronduit/waste-alchemists/wiki/API-Reference",
-            "faq": "https://github.com/studioronduit/waste-alchemists/wiki/FAQ"
-        },
-        "support": {
-            "issues": "https://github.com/studioronduit/waste-alchemists/issues",
-            "email": "support@wastealchemists.com",
-            "community": "https://discord.gg/wastealchemists"
-        }
-    },
+    }    
 }
