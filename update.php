@@ -52,28 +52,16 @@ function wastealch_plugin_info( $res, $action, $args ) {
 		 'name'          => $remote->name,
 		 'slug'          => $remote->slug,
 		 'requires'      => $remote->requires,
-		 'requires_php'  => $remote->requires_php,
-		 'tested'        => $remote->tested,          // ← toegevoegd
-		 'last_updated'  => $remote->last_updated,    // ← toegevoegd
+		  'requires_php'  => $remote->requires_php,
+		  'tested'        => $remote->tested,          // ← toegevoegd
+		  'last_updated'  => $remote->last_updated,    // ← toegevoegd
 		 'version'       => $remote->version,
 		 'author'        => $remote->author,
 		 'download_link' => $remote->download_url,
-		 'trunk'         => $remote->download_url,    // ← toegevoegd
-		 'sections'      => [
-			 'description'  => $remote->sections->description ?? '',
-			 'installation' => $remote->sections->installation ?? '',
-			 'changelog'    => $remote->sections->changelog ?? '',
-			 'faq'          => $remote->sections->faq ?? '',
-		 ],
+		 'sections'      => (array) $remote->sections,
 		 'screenshots'   => $remote->screenshots ?? [],
-		 'banners'       => [
-			 'low'  => $remote->banners->low ?? '',
-			 'high' => $remote->banners->high ?? '',
-		 ],
-		 'icons'         => [
-			 '1x' => $remote->icons->{'1x'} ?? '',
-			 '2x' => $remote->icons->{'2x'} ?? '',
-		 ],
+		 'icons'         => (array) ( $remote->icons ?? [] ),
+		 'banners'       => (array) ( $remote->banners ?? [] ),
 	 ];
  }
  
