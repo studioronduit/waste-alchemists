@@ -53,12 +53,11 @@ function wastealch_plugin_info( $res, $action, $args ) {
 		 'slug'          => $remote->slug,
 		 'requires'      => $remote->requires,
 		 'requires_php'  => $remote->requires_php,
-		 'tested'        => $remote->tested,          // ← toegevoegd
-		 'last_updated'  => $remote->last_updated,    // ← toegevoegd
+		 'tested'        => $remote->tested,
+		 'last_updated'  => $remote->last_updated,
 		 'version'       => $remote->version,
 		 'author'        => $remote->author,
 		 'download_link' => $remote->download_url,
-		 'trunk'         => $remote->download_url,    // ← toegevoegd
 		 'sections'      => [
 			 'description'  => $remote->sections->description ?? '',
 			 'installation' => $remote->sections->installation ?? '',
