@@ -9,7 +9,6 @@
  */
  delete_transient('wastealch_update_check');
 
-require_once plugin_dir_path( __FILE__ ) . 'readme.php';
 require_once plugin_dir_path( __FILE__ ) . 'update.php';
 
  
