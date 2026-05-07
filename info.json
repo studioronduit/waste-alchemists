@@ -6,12 +6,5 @@
     "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/release/waste-alchemists.zip",
     "sections": {
         "description": "Waste Alchemists is a referral tracking system designed to monitor and optimize waste management processes. It helps organizations track referrals, measure impact, and improve sustainability efforts."
-    },
-     "screenshots": [
-            {
-                "url": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/screenshot-1.webp",
-                "caption": "Waste Alchemists Dashboard"
-            }
-        ]
-    
+    }
 }
