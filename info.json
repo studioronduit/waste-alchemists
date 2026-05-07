@@ -1,7 +1,7 @@
 {
     "name": "Waste Alchemists",
     "slug": "waste-alchemists",
-    "version": "0.9.8",
+    "version": "0.9.7",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
     "requires": "6.0",
     "tested": "6.8",
@@ -19,5 +19,13 @@
             "src": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/screenshot-1.webp",
             "caption": "Waste Alchemists Dashboard"
         }
-    ]
+    ],
+    "icons": {
+        "1x": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/icon-128x128.png",
+        "2x": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/icon-256x256.png"
+    },
+    "banners": {
+        "low": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/banner-772x250.png",
+        "high": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/banner-1544x500.png"
+    }
 }
