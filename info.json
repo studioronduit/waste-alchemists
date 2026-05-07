@@ -4,7 +4,7 @@
     "version": "0.9.8",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
     "requires": "4.6",
-    "tested": "6.8",
+    "tested": "6.7",
     "requires_php": "7.0",
     "last_updated": "2026-05-07",
     "homepage": "https://www.wastealchemists.com/",
