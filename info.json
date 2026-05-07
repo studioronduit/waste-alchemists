@@ -3,9 +3,21 @@
     "slug": "waste-alchemists",
     "version": "0.9.7",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
+    "requires": "6.0",
+    "tested": "6.8",
+    "requires_php": "8.0",
+    "last_updated": "2025-05-07",
+    "homepage": "https://www.wastealchemists.com/",
     "download_url": "https://github.com/studioronduit/waste-alchemists/releases/download/release/waste-alchemists.zip",
     "sections": {
-        "changelog": "<h4>0.9.6</h4><p>Beschrijving van wijzigingen.</p>",
-        "description": "Waste Alchemists is a referral tracking system designed to monitor and optimize waste management processes. It helps organizations track referrals, measure impact, and improve sustainability efforts."
-    }
+        "description": "<p>Waste Alchemists is een referral- en affiliate tracking systeem voor WooCommerce-webshops aangesloten op het Waste Alchemists platform.</p><ul><li>Detectie en opslag van referral-parameters</li><li>Koppeling van referraldata aan WooCommerce-bestellingen</li><li>Doorsturen van orderdata naar een externe webhook</li></ul>",
+        "installation": "<ol><li>Upload naar <code>/wp-content/plugins/waste-alchemists/</code></li><li>Activeer via het Plugins-menu</li><li>Stel de webhook-URL in</li></ol>",
+        "changelog": "<h4>0.9.7</h4><p>Beschrijving van wijzigingen.</p><h4>0.9.6</h4><p>Beschrijving van wijzigingen.</p><h4>0.9.5</h4><p>Eerste publieke beta.</p>"
+    },
+    "screenshots": [
+        {
+            "src": "https://raw.githubusercontent.com/studioronduit/waste-alchemists/main/assets/screenshot-1.webp",
+            "caption": "Waste Alchemists Dashboard"
+        }
+    ]
 }
