@@ -56,6 +56,8 @@ function wastealch_plugin_info( $res, $action, $args ) {
 		 'download_link' => $remote->download_url,
 		 'sections'      => (array) $remote->sections,
 		 'screenshots'   => $remote->screenshots ?? [],
+		 'icons'         => (array) ( $remote->icons ?? [] ),
+		 'banners'       => (array) ( $remote->banners ?? [] ),
 	 ];
  }
  
