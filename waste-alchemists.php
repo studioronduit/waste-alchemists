@@ -3,7 +3,7 @@
  * Plugin Name: Waste Alchemists
  * Plugin URI:  https://www.wastealchemists.com/
  * Description: Waste Alchemists plugin
- * Version:     0.9.6
+ * Version:     0.9.7
  * Author:      S. A. Wagner, D. Jacobs, P. Eg
  * License:     GPL2
  */
