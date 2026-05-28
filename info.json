@@ -1,7 +1,7 @@
 {
     "name": "Waste Alchemists",
     "slug": "waste-alchemists",
-    "version": "1.0",
+    "version": "1.0.1",
     "author": "S. A. Wagner, D. Jacobs, P. Eg",
     "requires": "4.6",
     "tested": "6.9.4",
