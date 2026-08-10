@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Waste Alchemists
  * Plugin URI:  https://www.wastealchemists.com/
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      S. A. Wagner, D. Jacobs, P. Eg
  * License:     GPL2
  */
@@ -148,6 +148,9 @@ function wastealch_send_order( $order_id ) {
 	if ( $referral !== 'wastealchemists' ) return;
 
 	if ( $order->get_meta( 'wastealch_sent' ) ) return;
+	$order->update_meta_data( '_wc_order_attribution_source_type', 'utm' );
+	$order->update_meta_data( '_wc_order_attribution_utm_source', 'waste-alchemists' );
+	
 	$order->update_meta_data( 'wastealch_sent', true );
 	$order->save();
 
